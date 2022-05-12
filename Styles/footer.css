@@ -1,0 +1,45 @@
+#footer {
+    background-color: #323231;
+    height: 400px;
+    width: auto;
+    padding: 50px;
+  }
+  
+  #Lfoot {
+    background-color: #323231;
+    width: 80%;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #footer h4 {
+    color: white;
+  }
+  
+  #footer p {
+    font-weight: bolder;
+    color: gray;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+  
+  li {
+    font-weight: bold;
+    color: grey;
+  }
+  
+  #Mfoot {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+    /* justify-content: space-between; */
+  }
+  
+  #logoFoot {
+    width: 60px;
+    height: 60px;
+    margin-right: 200px;
+  }

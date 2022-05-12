@@ -1,0 +1,155 @@
+#navbar {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  /* position: fixed; */
+  /* overflow: hidden; */
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#navbar > div {
+  height: auto;
+  width: auto;
+  display: flex;
+  /* margin-right: 90px; */
+}
+#Icon {
+  background-color: #ffffff;
+
+  width: 90px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  margin-top: 18px;
+  width: 40px;
+  height: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: brown;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(17px);
+  -ms-transform: translateX(17px);
+  transform: translateX(17px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#search_bar {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  background-color: #fbfaf8;
+  border-radius: 30px;
+  display: flex;
+  width: 300px;
+  height: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 7px;
+}
+#location {
+  color: #ee7700;
+  margin-top: 17px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+#Events > div {
+  display: flex;
+  cursor: pointer;
+}
+
+.logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  margin-top: 27px;
+}
+#Events h4 {
+  margin-right: 10px;
+  margin-top: 28px;
+}
+#search {
+  padding-top: 7px;
+  margin-right: 100px;
+}
+#search > div {
+  margin-right: 10px;
+}
+#icon_search {
+  margin-top: 24px;
+  font-size: x-large;
+  color: #ee7700;
+  cursor: pointer;
+}
+#Burger_king {
+  margin-left: 80px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+#Events h4 {
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: grey;
+}
+
+#Events {
+  margin-right: 90px;
+}
+
+#search h4 {
+  font-family: sans-serif;
+  color: grey;
+}

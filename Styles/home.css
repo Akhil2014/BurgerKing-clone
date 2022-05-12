@@ -1,0 +1,289 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.slidoImg {
+  width: 100%;
+}
+
+/* #footer {
+  background-color: #323231;
+  height: 400px;
+  width: auto;
+  padding: 50px;
+}
+
+#Lfoot {
+  background-color: #323231;
+  width: 80%;
+  height: 280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer h4 {
+  color: white;
+}
+
+#footer p {
+  font-weight: bolder;
+  color: gray;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+li {
+  font-weight: bold;
+  color: grey;
+}
+
+#Mfoot {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding-top: 100px;
+  /* justify-content: space-between; */
+}
+
+/* #logoFoot {
+  width: 60px;
+  height: 60px;
+  margin-right: 200px;
+} */ */
+u {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.social {
+  font-size: 30px;
+  background-color: gray;
+  border-radius: 50%;
+  padding-top: 10px;
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#login {
+  background-color: #f5ebdc;
+  border-radius: 5px;
+  width: 550px;
+  height: 500px;
+  margin-left: 500px;
+  margin-top: 100px;
+  display: none;
+  position: fixed;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+#login div {
+  border-top: 3px solid #ee7700;
+  width: 100%;
+  height: 70px;
+  background-color: #6f3c2f;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#burger {
+  width: 80px;
+  height: 80px;
+}
+.our_menu {
+  background-color: #f6f1eb;
+  width: 100%;
+  height: 290px;
+  margin-top: 0%;
+}
+
+.Cmenu {
+  width: 78%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Cdata {
+  height: 240px;
+  margin: auto;
+  display: flex;
+  width: 85%;
+}
+
+.Buttonleft {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 20px;
+  width: 5%;
+  width: 40px;
+  height: 60px;
+  left: 35px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+  color: grey;
+  text-align: center;
+  background: white;
+  border: none;
+}
+
+#Lbody {
+  background-color: #f6f1eb;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  /* padding-top: 80px; */
+  height: 700px;
+}
+
+.Scroller {
+  display: flex;
+  height: 200px;
+  gap: 30px;
+  width: 90%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  /* position: relative; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Scroller > div {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+  border-radius: 10px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.Cmenu h3 {
+  color: #ee7700;
+  margin-top: 30px;
+}
+
+.GG {
+  margin-top: 23px;
+}
+.Buttonright {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 20px;
+  text-align: center;
+  width: 5%;
+  width: 40px;
+  height: 60px;
+  left: 35px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  background: white;
+  border: none;
+  color: grey;
+}
+.BB{
+  margin-top: 70px;
+}
+.Scroller h3 {
+  margin-left: 20px;
+}
+
+.here {
+  width: 100%;
+  text-align: center;
+}
+
+#hereImg {
+  border-radius: 10px;
+}
+.DealsImg {
+  width: 400px;
+  height: 200px;
+}
+#bk {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+#bktext {
+  margin-left: 150px;
+  margin-top: 80px;
+}
+
+#bk > div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 380px;
+  height: 170px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.details {
+  width: fit-content;
+  height: 100%;
+  padding-left: 20px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* text-align: center; */
+}
+/* .burg{
+  width: 10px;
+} */
+#bk img {
+  width: 130px;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.details div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details button {
+  width: 110px;
+  height: 36px;
+  border-radius: 50px;
+  border: 2px solid #ee7700;
+  background-color: white;
+  color: #ee7700;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+#explorebtn {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+#Lhere {
+  width: 85%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+#explorebtn button {
+  border: none;
+  background-color: #ee7700;
+  width: 300px;
+  height: 45px;
+  border-radius: 50px;
+  font-size: large;
+  font-family: serif;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
