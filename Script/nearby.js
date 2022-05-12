@@ -45,3 +45,323 @@ var cart = document.getElementById("cart");
 cart.addEventListener("click", function () {
   alert("No items are added");
 });
+
+
+
+var neardata = [
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },{
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+]
+
+
+
+
+
+
+neardata.forEach(function(el){
+
+  let address1 = document.createElement("div")
+  address1.setAttribute("id","address1")
+  let h2 = document.createElement("h2")
+  h2.innerText = el.name;
+  let h3 = document.createElement("h3")
+  h3.innerText =el.time;
+  let p = document.createElement("p")
+  p.innerText = el.address;
+  let h4 = document.createElement("h4")
+  h4.innerText = el.status;
+  let p1 = document.createElement("p")
+  p1.innerText = el.distance;
+
+  address1.append(h2,h3,p,h4,p1)
+
+  let address2 = document.createElement("div")
+  address2.setAttribute("id","address2")
+
+  
+  let call = document.createElement("div")
+  let img1 = document.createElement("img")
+  img1.src ="https://www.burgerking.in/static/media/call-icon.dffe4d54.svg";
+
+  call.append(img1)
+
+  let call1 = document.createElement("div")
+  let img2 = document.createElement("img")
+  img2.src ="https://www.burgerking.in/static/media/location-direction.f129a961.svg";
+
+  call1.append(img2)
+
+  address2.append(call,call1)
+
+  let box = document.createElement("div")
+ box.setAttribute("id","address")
+
+ box.append(address1,address2)
+
+
+
+
+
+
+
+
+
+  let take = document.createElement("div")
+  take.setAttribute("id","take")
+
+  let call2 = document.createElement("div")
+  call2.innerText = "Takeaaway"
+  let img3 = document.createElement("img")
+  img3.src ="https://www.burgerking.in/static/media/take-away.ea8a9e2d.svg";
+
+  call2.append(img3)
+
+  
+  let call3 = document.createElement("div")
+  call3.innerText = "Dine-in"
+  let img4 = document.createElement("img")
+  img4.src ="https://www.burgerking.in/static/media/dine-in.1e8f5361.svg";
+
+  call3.append(img4)
+
+  
+  let call4 = document.createElement("div")
+  call4.innerText = "Delivery"
+  let img5 = document.createElement("img")
+  img5.src ="https://www.burgerking.in/static/media/delivery.970bac8f.svg";
+
+  call4.append(img5)
+
+  take.append(call2,call3,call4)
+   
+ 
+
+//  box.append(address1,address2,take)
+
+
+let box1 = document.getElementById("append")
+
+ box1.append(box,take)
+  
+})
