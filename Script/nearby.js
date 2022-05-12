@@ -60,7 +60,42 @@ var neardata = [
     name:"RANJIT AVENUE AMRITSAR",
     time:"Store Timing(11:00 AM-10:00 PM",
     address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Closed",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
     status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Closed",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Open Now",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Closed",
     distance:"5KM",
   },
   {
@@ -95,7 +130,7 @@ var neardata = [
     name:"RANJIT AVENUE AMRITSAR",
     time:"Store Timing(11:00 AM-10:00 PM",
     address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
+    status:"Closed",
     distance:"5KM",
   },
   {
@@ -130,7 +165,14 @@ var neardata = [
     name:"RANJIT AVENUE AMRITSAR",
     time:"Store Timing(11:00 AM-10:00 PM",
     address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
+    status:"Closed",
+    distance:"5KM",
+  },
+  {
+    name:"RANJIT AVENUE AMRITSAR",
+    time:"Store Timing(11:00 AM-10:00 PM",
+    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
+    status:"Closed",
     distance:"5KM",
   },
   {
@@ -158,7 +200,7 @@ var neardata = [
     name:"RANJIT AVENUE AMRITSAR",
     time:"Store Timing(11:00 AM-10:00 PM",
     address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
+    status:"Closed",
     distance:"5KM",
   },
   {
@@ -179,49 +221,7 @@ var neardata = [
     name:"RANJIT AVENUE AMRITSAR",
     time:"Store Timing(11:00 AM-10:00 PM",
     address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
-    distance:"5KM",
-  },
-  {
-    name:"RANJIT AVENUE AMRITSAR",
-    time:"Store Timing(11:00 AM-10:00 PM",
-    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
-    distance:"5KM",
-  },
-  {
-    name:"RANJIT AVENUE AMRITSAR",
-    time:"Store Timing(11:00 AM-10:00 PM",
-    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
-    distance:"5KM",
-  },
-  {
-    name:"RANJIT AVENUE AMRITSAR",
-    time:"Store Timing(11:00 AM-10:00 PM",
-    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
-    distance:"5KM",
-  },
-  {
-    name:"RANJIT AVENUE AMRITSAR",
-    time:"Store Timing(11:00 AM-10:00 PM",
-    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
-    distance:"5KM",
-  },
-  {
-    name:"RANJIT AVENUE AMRITSAR",
-    time:"Store Timing(11:00 AM-10:00 PM",
-    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
-    distance:"5KM",
-  },
-  {
-    name:"RANJIT AVENUE AMRITSAR",
-    time:"Store Timing(11:00 AM-10:00 PM",
-    address:"Goyla dairy, qutub vihar, phase-2, D-Block, House no. = 402",
-    status:"Open Now",
+    status:"Closed",
     distance:"5KM",
   },
   {
@@ -357,7 +357,16 @@ neardata.forEach(function(el){
   call4.append(img5)
 
   take.append(call2,call3,call4)
-   
+  
+
+  if(el.status !== "Open Now"){
+    box.style.marginBottom = "50px"
+    box.style.borderRadius = "10px"
+    take.style.display  = "none"
+    call4.style.display  = "none"
+    call3.style.display  = "none"
+    call2.style.display  = "none"
+  }
  
 
 //  box.append(address1,address2,take)
