@@ -309,6 +309,9 @@ neardata.forEach(function(el){
   let call1 = document.createElement("div")
   let img2 = document.createElement("img")
   img2.src ="https://www.burgerking.in/static/media/location-direction.f129a961.svg";
+  call1.addEventListener("click",function(){
+    window.location.href = "https://www.google.com/maps?q=Burger+King+India+Ltd.+Ranjit+Avenue+Amritsar,+B-Block,+Sco+No-11,+District+Shopping+Complex+Center,+Amritsar+-+143008+Punjab"
+  })
 
   call1.append(img2)
 

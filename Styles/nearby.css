@@ -99,6 +99,7 @@ input:focus {
   text-align: center;
   padding-top: 8px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 #take {
