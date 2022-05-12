@@ -146,12 +146,5 @@ input:focus {
 }
 #address h4 {
   margin-bottom: -10px;
-  color: green;
+  color: greenyellow;
 }
-
-/* 
-#append{
-  width: 1px solid black;
-  width: 100%;
-  height: 100px;
-} */
