@@ -25,20 +25,7 @@ function colorChange() {
   }
 }
 
-async function dataRest() {
-  try {
-    let res = await fetch(
-      "https://api.spoonacular.com/recipes/complexSearch?apiKey=7f2ac67a76ae4adb8be5aabfb3f90cfa"
-    );
-    let data = await res.json();
-    let alldata = data.results;
-    return alldata;
-  } catch (err) {
-    console.log(err);
-  }
-}
 
-console.log(await dataRest());
 
 var burger = document.getElementById("Burger_king");
 burger.addEventListener("click", function () {

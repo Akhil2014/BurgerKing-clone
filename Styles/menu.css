@@ -1,0 +1,204 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#lbody {
+    background-color: #f8f6f3;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    /* padding-top: 80px; */
+    height: 680px;
+  }
+
+  .our_menu {
+    background-color: #f6f1eb;
+    width: 100%;
+    height: 290px;
+    margin-top: 0%;
+  }
+  
+  .Cmenu {
+    width: 88%;
+    margin: auto;
+  }
+  
+  .Cdata {
+    height: 240px;
+    margin: auto;
+    display: flex;
+    width: 95%;
+  }
+  
+  .Buttonleft {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 30px;
+    width: 5%;
+    width: 40px;
+    height: 60px;
+    left: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    color: grey;
+    text-align: center;
+    background: white;
+    border: none;
+  }
+  
+  #Lbody {
+    background-color: #f6f1eb;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    /* padding-top: 80px; */
+    height: 700px;
+  }
+  
+  .Scroller {
+    display: flex;
+    height: 200px;
+    gap: 30px;
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    /* position: relative; */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .Scroller > div {
+    background-color: #f8f6f3;
+    height: 140px;
+    width: 200px;
+    cursor: pointer;
+    
+  }
+  .Scroller > div:hover{
+      border-bottom: 3px solid #ee7700;
+      color: #ee7700;
+  }
+  .Scroller img{
+      width: 100px;
+      height: 100px;
+  }
+  .Cmenu h3 {
+    color: #ee7700;
+    margin-top: 30px;
+  }
+  
+  .GG {
+    margin-top: 23px;
+  }
+  .Buttonright {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 30px;
+    text-align: center;
+    width: 5%;
+    width: 40px;
+    height: 60px;
+    left: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    background: white;
+    border: none;
+    color: grey;
+  }
+  .BB{
+    margin-top: 70px;
+  }
+  .Scroller h3 {
+    margin-left: 10px;
+    margin-top: 1px;
+    font-size: 13px;
+  }
+  
+  .here {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #hereImg {
+    border-radius: 10px;
+  }
+  .DealsImg {
+    width: 400px;
+    height: 200px;
+  }
+  #bk {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  #bktext {
+    margin-left: 150px;
+    margin-top: 80px;
+  }
+  
+  #bk > div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 380px;
+    height: 170px;
+    border-radius: 10px;
+    display: flex;
+  }
+  
+  .details {
+    width: fit-content;
+    height: 100%;
+    padding-left: 20px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* text-align: center; */
+  }
+
+  #Titlemenu{
+      margin-top: 20px;
+      display: flex;
+      gap: 5px;
+      font-size: 13px;
+      font-family: monospace;
+  }
+
+  #Titlemenu>i {
+      font-size: 7px;
+      margin-top: 18px;
+      color: #ee7700;
+  }
+
+  #Titlemenu b {
+    margin-top: 13px;
+  }
+
+  #vegnon{
+      border-top: 1px solid gray;
+      width: 87%;
+      height: 60px;
+      margin: auto;
+      margin-top: -70px;
+      padding-top: 20px;
+  }
+
+  #vegnon>button{
+      width: 90px;
+      height: 30px;
+      color: #ee7700;
+      font-weight: bolder;
+      font-family: sans-serif;
+      font-size: 10px;
+      border: 1px solid #ee7700;
+      background-color: #f7e9da;
+      border-radius: 50px;
+      margin-bottom: 40px;
+  }
+
+  #vegnon img{
+      height: 17px;
+      /* margin-top: 5px; */
+      text-align: center;
+  }
