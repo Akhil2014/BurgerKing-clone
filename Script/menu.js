@@ -1,4 +1,4 @@
-import {navbar} from "../Components/export.js"
+import { navbar } from "../Components/export.js";
 
 document.getElementById("navbar").innerHTML = navbar();
 
@@ -23,6 +23,32 @@ function colorChange() {
   }
 }
 
+var homepage = document.getElementById("homepage");
+homepage.style.cursor = "pointer";
+homepage.addEventListener("click", function () {
+  window.location.href = "home.html";
+});
+
+console.log(await dataRest());
+
+let left1 = document.getElementById("btnD");
+let right1 = document.getElementById("btnD2");
+right1.onclick = function () {
+  document.querySelector("#MM").scrollLeft += 1150;
+};
+left1.onclick = function () {
+  var l = (document.querySelector("#MM").scrollLeft -= 1150);
+};
+
+var cart = document.getElementById("cart");
+cart.addEventListener("click", function () {
+  alert("No items are added");
+});
+
+var burger = document.getElementById("Burger_king");
+burger.addEventListener("click", function () {
+  window.location.href = "home.html";
+});
 
 async function dataRest() {
   try {
@@ -36,20 +62,3 @@ async function dataRest() {
     console.log(err);
   }
 }
-
-var homepage = document.getElementById("homepage")
-homepage.style.cursor = "pointer"
-homepage.addEventListener("click",function(){
-  window.location.href = "home.html"
-})
-
-console.log(await dataRest());
-
-let left1 = document.getElementById("btnD");
-let right1 = document.getElementById("btnD2");
-right1.onclick = function () {
-  document.querySelector("#MM").scrollLeft += 1150;
-};
-left1.onclick = function () {
-  var l = document.querySelector("#MM").scrollLeft -= 1150;
-};
