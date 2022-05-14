@@ -1,7 +1,9 @@
 import { navbar } from "../Components/export.js";
 import { footer } from "../Components/export.js";
+import { main } from "../Components/kingsexport.js"
 
 document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("lbody").innerHTML = main();
 document.getElementById("footer").innerHTML = footer();
 
 var Unable = document.getElementById("search_bar");

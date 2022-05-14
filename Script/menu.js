@@ -1,6 +1,8 @@
 import { navbar } from "../Components/export.js";
+import { main } from "../Components/menuexport.js"
 
 document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("lbody").innerHTML = main();
 
 let c1 = document.getElementById("C1");
 c1.style.color = "brown";
