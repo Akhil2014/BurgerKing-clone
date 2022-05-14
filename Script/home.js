@@ -1,8 +1,12 @@
 import { footer } from "../Components/export.js";
 import { navbar } from "../Components/export.js";
+import { main } from "../Components/export.js";
 
 var nav = document.getElementById("navbar");
 nav.innerHTML = navbar();
+
+var lbody = document.getElementById("lbody")
+lbody.innerHTML = main();
 
 var foot = document.getElementById("footer");
 foot.innerHTML = footer();
